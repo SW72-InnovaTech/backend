@@ -22,6 +22,16 @@
 		<module>
 			microservice-promos
 		</module>
+
+		<module>
+			microservice-gateway
+		</module>
+		<module>
+			microservice-eureka
+		</module>
+		<module>
+			microservice-config
+		</module>
 	</modules>
 
 	<properties>
