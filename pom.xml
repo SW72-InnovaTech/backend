@@ -22,8 +22,19 @@
 		<module>
 			microservice-promos
 		</module>
+
 		<module>
 			microservice-trips
+		</module>
+
+		<module>
+			microservice-gateway
+		</module>
+		<module>
+			microservice-eureka
+		</module>
+		<module>
+			microservice-config
 		</module>
 	</modules>
 
