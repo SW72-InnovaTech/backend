@@ -4,8 +4,8 @@ import com.innovatech.promos.microservicepromos.promos.domain.model.entities.Pro
 import com.innovatech.promos.microservicepromos.promos.domain.model.queries.GetPromoByIdQuery;
 import com.innovatech.promos.microservicepromos.promos.domain.model.queries.GetPromosQuery;
 import com.innovatech.promos.microservicepromos.promos.domain.services.PromoQueryService;
-import org.springframework.stereotype.Service;
 import com.innovatech.promos.microservicepromos.promos.infrastructure.persistence.jpa.repositories.PromoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
