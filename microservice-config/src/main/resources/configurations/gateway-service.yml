@@ -18,3 +18,8 @@ spring:
             http://localhost:8090
           predicates:
             - Path=/api/v1/trips/**
+        - id: authentication
+          uri:
+            http://localhost:9090
+          predicates:
+            - Path=/api/v1/authentication/**

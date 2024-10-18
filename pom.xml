@@ -36,6 +36,9 @@
 		<module>
 			microservice-config
 		</module>
+		<module>
+			microservice.authentication
+		</module>
 	</modules>
 
 	<properties>
