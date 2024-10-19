@@ -8,7 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-gateway" />
+        <module name="microservice-trips" />
         <module name="microservice-promos" />
+        <module name="microservice.authentication" />
         <module name="microservice-eureka" />
         <module name="microservice-config" />
       </profile>
@@ -21,6 +23,7 @@
       <module name="microservice-gateway" options="-parameters" />
       <module name="microservice-promos" options="-parameters" />
       <module name="microservice-trips" options="-parameters" />
+      <module name="microservice.authentication" options="-parameters" />
     </option>
   </component>
 </project>
