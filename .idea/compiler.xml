@@ -11,8 +11,9 @@
         <module name="microservice-trips" />
         <module name="microservice-promos" />
         <module name="microservice.authentication" />
-        <module name="microservice-eureka" />
+        <module name="microservice-notification" />
         <module name="microservice-config" />
+        <module name="microservice-eureka" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
       <module name="microservice-config" options="-parameters" />
       <module name="microservice-eureka" options="-parameters" />
       <module name="microservice-gateway" options="-parameters" />
+      <module name="microservice-notification" options="-parameters" />
       <module name="microservice-promos" options="-parameters" />
       <module name="microservice-trips" options="-parameters" />
       <module name="microservice.authentication" options="-parameters" />

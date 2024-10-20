@@ -22,7 +22,9 @@
 		<module>
 			microservice-promos
 		</module>
-
+		<module>
+			microservice-notification
+		</module>
 		<module>
 			microservice-trips
 		</module>
