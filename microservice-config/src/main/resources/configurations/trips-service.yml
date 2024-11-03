@@ -1,14 +1,13 @@
 server:
   port: 8090
-
 spring:
   application:
     name: trips-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tmrtripsdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/tmrtripsdb?useSSL=false&serverTimezone=UTC
     username: root
-    password: admin
+    password: gerardo261202#$%
   jpa:
     show-sql: true
     hibernate:
@@ -19,7 +18,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-
 eureka:
   instance:
     hostname: localhost

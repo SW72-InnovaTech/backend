@@ -3,3 +3,9 @@ spring:
     name: gateway-service
   config:
     import: optional:configserver:http://localhost:8888
+
+authorization:
+  jwt:
+    secret: WriteHereYourSecretStringForTokenSigningCredentials
+    expiration:
+      days: 7
