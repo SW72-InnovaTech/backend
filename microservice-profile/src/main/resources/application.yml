@@ -7,7 +7,7 @@ spring:
     name: promos-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tmrpromosdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/tmrprofiledb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
     password: "esteban2569"
   config:
@@ -17,7 +17,7 @@ spring:
     hibernate:
       ddl-auto: update
       naming:
-        physical-strategy: com.innovatech.promos.microservicepromos.shared.infrastructure.persistence.jpa.configuration.strategy.SnakeCaseWithPluralizedTablePhysicalNamingStrategy
+        physical-strategy: com.innovatech.microserviceprofile.shared.infrastructure.persistence.jpa.configuration.strategy.SnakeCaseWithPluralizedTablePhysicalNamingStrategy
     open-in-view: false
     properties:
       hibernate:
