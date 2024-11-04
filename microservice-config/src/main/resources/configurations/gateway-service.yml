@@ -32,3 +32,10 @@ spring:
             - Path=/api/v1/promos/**
           filters:
             - AuthenticationFilter
+        - id: notification
+          uri:
+            http://localhost:8080
+          predicates:
+            - Path=/api/v1/notification/**
+          filters:
+            - AuthenticationFilter
