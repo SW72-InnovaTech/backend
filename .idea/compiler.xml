@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-gateway" />
         <module name="microservice-trips" />
+        <module name="microservice-profile" />
         <module name="microservice-promos" />
         <module name="microservice.authentication" />
         <module name="microservice-notification" />
@@ -23,6 +24,7 @@
       <module name="microservice-eureka" options="-parameters" />
       <module name="microservice-gateway" options="-parameters" />
       <module name="microservice-notification" options="-parameters" />
+      <module name="microservice-profile" options="-parameters" />
       <module name="microservice-promos" options="-parameters" />
       <module name="microservice-trips" options="-parameters" />
       <module name="microservice.authentication" options="-parameters" />
