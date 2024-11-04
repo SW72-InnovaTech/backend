@@ -1,15 +1,15 @@
 
 server:
-  port: 8100
+  port: 8095
 
 spring:
   application:
-    name: promos-service
+    name: profile-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tmrprofiledb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
-    password: "esteban2569"
+    password: esteban
   config:
     import: optional:configserver:http://localhost:8888
   jpa:
