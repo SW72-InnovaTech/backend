@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: profiles-service
+    name: profile-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/tmrprofilesdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
