@@ -34,8 +34,16 @@ spring:
             - AuthenticationFilter
         - id: notification
           uri:
-            http://localhost:8080
+            http://localhost:8105
           predicates:
             - Path=/api/v1/notification/**
           filters:
             - AuthenticationFilter
+        - id: profiles
+          uri:
+            http://localhost:8095
+          predicates:
+            - Path=/api/v1/profiles/**
+          filters:
+            - AuthenticationFilter
+

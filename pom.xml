@@ -23,6 +23,9 @@
 			microservice-promos
 		</module>
 		<module>
+			microservice-profile
+		</module>
+		<module>
 			microservice-notification
 		</module>
 		<module>
