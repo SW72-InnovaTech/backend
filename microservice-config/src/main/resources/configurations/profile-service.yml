@@ -1,20 +1,20 @@
 server:
-  port: 8081
+  port: 8095
 
 spring:
   application:
-    name: trips-service
+    name: profiles-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tmrtripsdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/tmrprofilesdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
     username: root
-    password: esteban2569
+    password: gerardo261202#$%
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
       naming:
-        physical-strategy: com.innovatech.trips.microservicetrips.shared.infrastructure.persistence.jpa.configuration.strategy.SnakeCaseWithPluralizedTablePhysicalNamingStrategy
+        physical-strategy: com.innovatech.microserviceprofile.shared.infrastructure.persistence.jpa.configuration.strategy.SnakeCaseWithPluralizedTablePhysicalNamingStrategy
     open-in-view: false
     properties:
       hibernate:
