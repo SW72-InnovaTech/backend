@@ -28,3 +28,9 @@ spring:
             http://localhost:8100
           predicates:
             - Path=/api/v1/promos/**
+        - id: profile
+          uri:
+            http://localhost:8081
+          predicates:
+            - Path=/api/v1/profiles/**
+

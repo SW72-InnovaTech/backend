@@ -20,7 +20,6 @@ public class Profile extends AuditableAbstractAggregateRoot<Profile> {
 
     @Column(name = "email")
     private String email;
-
     @Column(name = "phone")
     private String phone;
 
