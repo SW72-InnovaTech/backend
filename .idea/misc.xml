@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice.authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-profile/pom.xml" />
       </list>
     </option>
   </component>
