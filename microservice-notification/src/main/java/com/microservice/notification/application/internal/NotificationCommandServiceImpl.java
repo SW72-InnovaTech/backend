@@ -4,7 +4,7 @@ import com.microservice.notification.domain.model.commands.CreateNotificationCom
 import com.microservice.notification.domain.model.commands.DeleteNotificationCommand;
 import com.microservice.notification.domain.model.entities.Notification;
 import com.microservice.notification.domain.services.NotificationCommandService;
-import com.microservice.notification.persistence.NotificationRepository;
+import com.microservice.notification.infrastructure.persistence.jpa.repositories.NotificationRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
