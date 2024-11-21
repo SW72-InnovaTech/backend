@@ -10,48 +10,41 @@ spring:
           enabled: true
       routes:
         - id: trips
-          uri:
-            http://localhost:8090
+          uri: lb://trips-service
           predicates:
             - Path=/api/v1/trips/**
           filters:
             - AuthenticationFilter
         - id: authentication
-          uri:
-            http://localhost:9090
+          uri: lb://authentication-service
           predicates:
             - Path=/api/v1/authentication/**
         - id: roles
-          uri:
-            http://localhost:9090
+          uri: lb://authentication-service
           predicates:
             - Path=/api/v1/roles/**
           filters:
             - AuthenticationFilter
         - id: users
-          uri:
-            http://localhost:9090
+          uri: lb://authentication-service
           predicates:
             - Path=/api/v1/users/**
           filters:
             - AuthenticationFilter
         - id: promos
-          uri:
-            http://localhost:8100
+          uri: lb://promos-service
           predicates:
             - Path=/api/v1/promos/**
           filters:
             - AuthenticationFilter
         - id: notification
-          uri:
-            http://localhost:8105
+          uri: lb://notification-service
           predicates:
             - Path=/api/v1/notifications/**
           filters:
             - AuthenticationFilter
         - id: profiles
-          uri:
-            http://localhost:8095
+          uri: lb://profile-service
           predicates:
             - Path=/api/v1/profiles/**
           filters:

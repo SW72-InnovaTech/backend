@@ -1,4 +1,4 @@
-package com.example.microservice_profile;
+package com.innovatech.microserviceprofile;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

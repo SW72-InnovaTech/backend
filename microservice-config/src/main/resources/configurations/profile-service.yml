@@ -6,9 +6,9 @@ spring:
     name: profile-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tmrprofilesdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
-    username: root
-    password: gerardo261202#$%
+    url: ${DB_URL_MSVC_PROFILE}
+    username: ${DB_USERNAME_MSVC_PROFILE}
+    password: ${DB_PASSWORD_MSVC_PROFILE}
   jpa:
     show-sql: true
     hibernate:
