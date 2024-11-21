@@ -43,3 +43,8 @@ spring:
           filters:
             - AuthenticationFilter
 
+authorization:
+  jwt:
+    secret: WriteHereYourSecretStringForTokenSigningCredentials
+    expiration:
+      days: 7
