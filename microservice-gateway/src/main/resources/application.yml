@@ -6,6 +6,6 @@ spring:
 
 authorization:
   jwt:
-    secret: WriteHereYourSecretStringForTokenSigningCredentials
+    secret: ${authorization.jwt.secret}
     expiration:
-      days: 7
+      days: ${authorization.jwt.expiration.days}

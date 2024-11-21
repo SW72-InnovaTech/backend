@@ -1,13 +1,13 @@
 server:
-  port: 8090
+  port: 8105
 spring:
   application:
     name: notification-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tmrnotificationdb?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/tmrnotificationsdb?useSSL=false&serverTimezone=UTC
     username: root
-    password: root
+    password: gerardo261202#$%
   jpa:
     show-sql: true
     hibernate:
