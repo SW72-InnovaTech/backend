@@ -12,7 +12,7 @@
 	<groupId>com.innovatech.trips</groupId>
 	<artifactId>microservice-trips</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	<packaging>jar</packaging>
 	<name>microservice-trips</name>
 	<description>microservice-trips</description>
 
