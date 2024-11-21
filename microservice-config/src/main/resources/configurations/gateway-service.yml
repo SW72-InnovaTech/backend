@@ -21,6 +21,20 @@ spring:
             http://localhost:9090
           predicates:
             - Path=/api/v1/authentication/**
+        - id: roles
+          uri:
+            http://localhost:9090
+          predicates:
+            - Path=/api/v1/roles/**
+          filters:
+            - AuthenticationFilter
+        - id: users
+          uri:
+            http://localhost:9090
+          predicates:
+            - Path=/api/v1/users/**
+          filters:
+            - AuthenticationFilter
         - id: promos
           uri:
             http://localhost:8100
