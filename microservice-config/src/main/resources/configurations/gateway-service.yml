@@ -61,7 +61,7 @@ authorization:
   jwt:
     secret: WriteHereYourSecretStringForTokenSigningCredentials
     expiration:
-      days: 7
+      days: 14
 
 management:
   endpoints:
