@@ -6,9 +6,9 @@ spring:
     name: promos-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tmrpromosdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
-    username: root
-    password: gerardo261202#$%
+    url: ${DB_URL_MSVC_PROMOS}
+    username: ${DB_USERNAME_MSVC_PROMOS}
+    password: ${DB_PASSWORD_MSVC_PROMOS}
   jpa:
     show-sql: true
     hibernate:

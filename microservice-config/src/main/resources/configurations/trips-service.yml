@@ -5,9 +5,9 @@ spring:
     name: trips-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tmrtripsdb?useSSL=false&serverTimezone=UTC
-    username: root
-    password: gerardo261202#$%
+    url: ${DB_URL_MSVC_TRIPS}
+    username: ${DB_USERNAME_MSVC_TRIPS}
+    password: ${DB_PASSWORD_MSVC_TRIPS}
   jpa:
     show-sql: true
     hibernate:

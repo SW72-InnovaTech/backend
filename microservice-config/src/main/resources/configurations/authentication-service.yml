@@ -6,9 +6,9 @@ spring:
     name: authentication-service
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/tmrauthenticationdb
-    username: postgres
-    password: admin
+    url: ${DB_URL_MSVC_AUTH}
+    username: ${DB_USERNAME_MSVC_AUTH}
+    password: ${DB_PASSWORD_MSVC_AUTH}
   jpa:
     show-sql: true
     hibernate:
@@ -24,7 +24,7 @@ authorization:
   jwt:
     secret: WriteHereYourSecretStringForTokenSigningCredentials
     expiration:
-      days: 7
+      days: 14
 
 eureka:
   instance:
